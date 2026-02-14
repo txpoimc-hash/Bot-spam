@@ -1,0 +1,80 @@
+{
+    "facebook": [
+        { "email": "fb_account1@yopmail.com", "password": "Pass123!", "status": "active", "posts": 0 },
+        { "email": "fb_account2@yopmail.com", "password": "Pass456!", "status": "active", "posts": 0 },
+        { "email": "fb_account3@yopmail.com", "password": "Pass789!", "status": "active", "posts": 0 },
+        { "email": "fb_account4@yopmail.com", "password": "Pass101!", "status": "active", "posts": 0 },
+        { "email": "fb_account5@yopmail.com", "password": "Pass112!", "status": "active", "posts": 0 }
+    ],
+    "reddit": [
+        { "username": "reddit_user1", "password": "RedPass1!", "status": "active", "posts": 0 },
+        { "username": "reddit_user2", "password": "RedPass2!", "status": "active", "posts": 0 },
+        { "username": "reddit_user3", "password": "RedPass3!", "status": "active", "posts": 0 },
+        { "username": "reddit_user4", "password": "RedPass4!", "status": "active", "posts": 0 }
+    ],
+    "telegram": [
+        { "phone": "+393401234567", "session": "session1.session", "status": "active", "posts": 0 },
+        { "phone": "+393401234568", "session": "session2.session", "status": "active", "posts": 0 },
+        { "phone": "+393401234569", "session": "session3.session", "status": "active", "posts": 0 }
+    ],
+    "discord": [
+        { "token": "mfa.xxx_token1", "status": "active", "posts": 0 },
+        { "token": "mfa.xxx_token2", "status": "active", "posts": 0 }
+    ],
+    "twitter": [
+        { "username": "twitter_user1", "password": "TwitPass1!", "email": "tw1@yopmail.com", "status": "active", "posts": 0 },
+        { "username": "twitter_user2", "password": "TwitPass2!", "email": "tw2@yopmail.com", "status": "active", "posts": 0 }
+    ],
+    "instagram": [
+        { "username": "insta_user1", "password": "InstaPass1!", "status": "active", "posts": 0 }
+    ],
+    "tiktok": [
+        { "username": "tiktok_user1", "password": "TikPass1!", "status": "active", "posts": 0 }
+    ],
+    "pinterest": [
+        { "email": "pin1@yopmail.com", "password": "PinPass1!", "status": "active", "posts": 0 }
+    ],
+    "tumblr": [
+        { "email": "tumblr1@yopmail.com", "password": "TumPass1!", "status": "active", "posts": 0 }
+    ],
+    "linkedin": [
+        { "email": "linkedin1@yopmail.com", "password": "LinkPass1!", "status": "active", "posts": 0 }
+    ],
+    "quora": [
+        { "email": "quora1@yopmail.com", "password": "QuoPass1!", "status": "active", "posts": 0 }
+    ],
+    "medium": [
+        { "email": "medium1@yopmail.com", "password": "MedPass1!", "status": "active", "posts": 0 }
+    ],
+    "forum": [
+        { "username": "forum_user1", "password": "ForumPass1!", "email": "forum1@yopmail.com", "status": "active", "posts": 0 },
+        { "username": "forum_user2", "password": "ForumPass2!", "email": "forum2@yopmail.com", "status": "active", "posts": 0 }
+    ],
+    "omegle": [
+        { "username": "anon_user1", "status": "active", "posts": 0 }
+    ],
+    "chatroulette": [
+        { "username": "anon_user2", "status": "active", "posts": 0 }
+    ],
+    "disqus": [
+        { "email": "disqus1@yopmail.com", "password": "DisqPass1!", "status": "active", "posts": 0 }
+    ],
+    "wordpress": [
+        { "username": "wp_user1", "password": "WpPass1!", "email": "wp1@yopmail.com", "status": "active", "posts": 0 }
+    ],
+    "blogger": [
+        { "email": "blogger1@gmail.com", "password": "BlogPass1!", "status": "active", "posts": 0 }
+    ],
+    "youtube": [
+        { "email": "yt1@gmail.com", "password": "YtPass1!", "status": "active", "posts": 0 }
+    ],
+    "telegram_channel": [
+        { "phone": "+393401234570", "session": "session4.session", "status": "active", "posts": 0 }
+    ],
+    "whatsapp": [
+        { "phone": "+393401234571", "status": "active", "posts": 0 }
+    ],
+    "signal": [
+        { "phone": "+393401234572", "status": "active", "posts": 0 }
+    ]
+}
