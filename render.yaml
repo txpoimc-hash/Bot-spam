@@ -1,26 +1,14 @@
-# render.yaml
 services:
   - type: worker
-    name: promo-bot-2026-free
-    runtime: python
-    repo: https://github.com/tuousername/promo-bot-render
+    name: spambot
+    runtime: docker
+    repo: https://github.com/TUO_USERNAME/spambot
     branch: main
-    buildCommand: |
-      apt-get update && apt-get install -y wget gnupg unzip curl xvfb
-      wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
-      echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list
-      apt-get update && apt-get install -y google-chrome-stable
-      pip install -r requirements.txt
-    startCommand: bash start.sh
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
     envVars:
-      - key: PYTHON_VERSION
-        value: 3.10.12
       - key: DISPLAY
         value: :99
-      - key: CHROME_BIN
-        value: /usr/bin/google-chrome
-      - key: CHROMEDRIVER_PATH
-        value: /usr/bin/chromedriver
-    schedule: "0 */6 * * *"  # Ogni 6 ore
+    schedule: "0 */6 * * *"
     autoDeploy: true
     plan: free
